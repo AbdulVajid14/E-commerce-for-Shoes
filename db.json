@@ -1,0 +1,483 @@
+{
+  "users": [
+    {
+      "id": "bab0",
+      "username": "vajid",
+      "password": "87654321",
+      "email": "vajidkp8@gmail.com",
+      "cart": [
+        {
+          "id": "9",
+          "name": "Sparx SI 170 Runnig Shoe",
+          "price": 2999,
+          "quantity": 1,
+          "categories": "women",
+          "images": "https://sbuyimages.dzvdesk.com/Uploads/Sparx%20%20Women%20SL-146%20Running%20Shoes%20%202_2021_01_13_16_21_29.jpeg",
+          "description": "A high-performance running shoe from Sparx with a sleek design, great for casual and athletic wear. Provides excellent grip and cushioning for running."
+        }
+      ],
+      "orders": [
+        {
+          "orderId": "order-1736750224539",
+          "status": "Pending",
+          "cartItems": [
+            {
+              "id": "10",
+              "name": "Leather ballet pumps",
+              "price": 1500,
+              "quantity": 1,
+              "categories": "women",
+              "images": "https://www.projectcece.com/static/_versions/products/alohas/01b2549_large.jpg",
+              "description": " Elegant and versatile leather ballet flats for women. These shoes provide a chic look and comfortable fit, perfect for formal or casual occasions.",
+              "productName": "Leather ballet pumps"
+            }
+          ],
+          "shippingAddress": {
+            "fullName": "vajid",
+            "phone": "8590362596",
+            "street": "kunnumpuram",
+            "city": "karinkallathanni",
+            "state": "kerala",
+            "zipCode": "123456"
+          },
+          "paymentDetails": {
+            "cardNumber": "",
+            "expiryDate": "",
+            "cvv": "",
+            "paymentMethod": "Cash on Delivery"
+          },
+          "orderDate": "2025-01-13T06:37:04.530Z"
+        },
+        {
+          "orderId": "order-1736750322088",
+          "status": "Pending",
+          "cartItems": [
+            {
+              "id": "1",
+              "name": "Men's Black Running",
+              "price": 2000,
+              "quantity": 1,
+              "categories": "men",
+              "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-005.jpg",
+              "description": "A stylish and comfortable black running shoe, perfect for daily use or sports. Provides excellent support and cushioning for outdoor activities.",
+              "productName": "Men's Black Running"
+            },
+            {
+              "id": "4",
+              "name": "Men's Red Running",
+              "price": 1999,
+              "quantity": 1,
+              "categories": "men",
+              "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-006.jpg",
+              "description": "Bold and bright red running shoes designed for athletes. Offers a lightweight feel with a cushioned sole for impact protection during intense workouts.",
+              "productName": "Men's Red Running"
+            },
+            {
+              "id": "13",
+              "name": "Red Tape Textured ",
+              "price": 3999,
+              "quantity": 1,
+              "categories": "women",
+              "images": "https://redtape.com/cdn/shop/files/RSO3793_8_jpg_e08f73a9-6dd2-4b60-898a-692d89596245.jpg?v=1733985965",
+              "description": "Textured red tape heels that combine modern design with a classic feel. Perfect for office wear or formal events.",
+              "productName": "Red Tape Textured "
+            },
+            {
+              "id": "12",
+              "name": "Vendoze Casual ",
+              "price": 3499,
+              "quantity": 1,
+              "categories": "women",
+              "images": "https://mall2mart.com/cdn/shop/products/612df0USRLL_600x.jpg?v=1707741693",
+              "description": "Vendoze's casual shoes offer an easy-to-wear, comfortable option for everyday use. Stylish and practical for relaxed outings and casual events.",
+              "productName": "Vendoze Casual "
+            },
+            {
+              "id": "14",
+              "name": "freddie Hot Space Block Heel",
+              "price": 2999,
+              "quantity": 1,
+              "categories": "women",
+              "images": "https://theater.xyz/cdn/shop/files/Untitled-1_0008_SHA05361_1080x.jpg?v=1721303338",
+              "description": "Chic block heels with a modern design, offering comfort without sacrificing style. Ideal for a fashionable look with lasting comfort.",
+              "productName": "freddie Hot Space Block Heel"
+            }
+          ],
+          "shippingAddress": {
+            "fullName": "vajid",
+            "phone": "8590362596",
+            "street": "kunnumpuram",
+            "city": "karinkallathanni",
+            "state": "kerala",
+            "zipCode": "123456"
+          },
+          "paymentDetails": {
+            "cardNumber": "",
+            "expiryDate": "",
+            "cvv": "",
+            "paymentMethod": "Cash on Delivery"
+          },
+          "orderDate": "2025-01-13T06:38:42.080Z"
+        },
+        {
+          "orderId": "order-1736750370443",
+          "status": "Pending",
+          "cartItems": [
+            {
+              "id": "1",
+              "name": "Men's Black Running",
+              "price": 2000,
+              "quantity": 1,
+              "categories": "men",
+              "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-005.jpg",
+              "description": "A stylish and comfortable black running shoe, perfect for daily use or sports. Provides excellent support and cushioning for outdoor activities.",
+              "productName": "Men's Black Running"
+            }
+          ],
+          "shippingAddress": {
+            "fullName": "vajid",
+            "phone": "8590362596",
+            "street": "kunnumpuram",
+            "city": "karinkallathanni",
+            "state": "kerala",
+            "zipCode": "123456"
+          },
+          "paymentDetails": {
+            "cardNumber": "",
+            "expiryDate": "",
+            "cvv": "",
+            "paymentMethod": "Cash on Delivery"
+          },
+          "orderDate": "2025-01-13T06:39:30.433Z"
+        },
+        {
+          "orderId": "order-1736750392144",
+          "status": "Pending",
+          "cartItems": [
+            {
+              "id": "17",
+              "name": "Tatum 3 PF",
+              "price": 1140,
+              "quantity": 1,
+              "categories": "men",
+              "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d66428e9-3575-4385-8b7d-36992831cc74/JORDAN+TATUM+3+PF.png",
+              "description": "Made for movers and shakers, the Tatum 3 offers a contouring fit in a lightweight design, helping you dominate the game in the smoothest of fashion. Sound familiar? A strong but flexible upper gives you the containment and stretch that quick cuts and dynamic movements demand. So, whether you're breaking records or ankles, you can shift in and out of action just like the champ himself. No pressure.",
+              "productName": "Tatum 3 PF"
+            }
+          ],
+          "shippingAddress": {
+            "fullName": "vajid",
+            "phone": "8590362596",
+            "street": "kunnumpuram",
+            "city": "karinkallathanni",
+            "state": "kerala",
+            "zipCode": "123456"
+          },
+          "paymentDetails": {
+            "cardNumber": "",
+            "expiryDate": "",
+            "cvv": "",
+            "paymentMethod": "Cash on Delivery"
+          },
+          "orderDate": "2025-01-13T06:39:52.135Z"
+        },
+        {
+          "orderId": "order-1736750426136",
+          "status": "Pending",
+          "cartItems": [
+            {
+              "id": "18",
+              "name": "Nike Air Force 1 '07 Next Nature",
+              "price": 1199,
+              "quantity": 1,
+              "categories": "women",
+              "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/04da14bb-ab6b-48ab-a31b-ffcbfeb8ee32/W+AIR+FORCE+1+%2707+NEXT+NATURE.png",
+              "description": "The radiance lives on in the Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp materials, bold colours and the perfect amount of flash to make you shine.\n\n",
+              "productName": "Nike Air Force 1 '07 Next Nature"
+            }
+          ],
+          "shippingAddress": {
+            "fullName": "vajid",
+            "phone": "8590362596",
+            "street": "kunnumpuram",
+            "city": "karinkallathanni",
+            "state": "kerala",
+            "zipCode": "123456"
+          },
+          "paymentDetails": {
+            "cardNumber": "",
+            "expiryDate": "",
+            "cvv": "",
+            "paymentMethod": "Cash on Delivery"
+          },
+          "orderDate": "2025-01-13T06:40:26.128Z"
+        },
+        {
+          "orderId": "order-1736750449731",
+          "status": "Pending",
+          "cartItems": [
+            {
+              "id": "3",
+              "name": "Men's Classic Mint",
+              "price": 3999,
+              "quantity": 1,
+              "categories": "men",
+              "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-020.jpg",
+              "description": " A refreshing mint-colored sneaker that combines style and comfort, offering breathable material and flexible sole for active wear.",
+              "productName": "Men's Classic Mint"
+            }
+          ],
+          "shippingAddress": {
+            "fullName": "vajid",
+            "phone": "8590362596",
+            "street": "kunnumpuram",
+            "city": "karinkallathanni",
+            "state": "kerala",
+            "zipCode": "123456"
+          },
+          "paymentDetails": {
+            "cardNumber": "",
+            "expiryDate": "",
+            "cvv": "",
+            "paymentMethod": "Cash on Delivery"
+          },
+          "orderDate": "2025-01-13T06:40:49.722Z"
+        },
+        {
+          "orderId": "order-1737188423563",
+          "status": "Pending",
+          "cartItems": [
+            {
+              "id": "10",
+              "name": "Leather ballet pumps",
+              "price": 1500,
+              "quantity": 1,
+              "categories": "women",
+              "images": "https://www.projectcece.com/static/_versions/products/alohas/01b2549_large.jpg",
+              "description": " Elegant and versatile leather ballet flats for women. These shoes provide a chic look and comfortable fit, perfect for formal or casual occasions.",
+              "productName": "Leather ballet pumps"
+            }
+          ],
+          "shippingAddress": {
+            "fullName": "vajid",
+            "phone": "8590362596",
+            "street": "kunnumpuram",
+            "city": "karinkallathanni",
+            "state": "kerala",
+            "zipCode": "123456"
+          },
+          "paymentDetails": {
+            "cardNumber": "",
+            "expiryDate": "",
+            "cvv": "",
+            "paymentMethod": "Cash on Delivery"
+          },
+          "orderDate": "2025-01-18T08:20:23.529Z"
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "vajid",
+        "phone": "8590362596",
+        "street": "kunnumpuram",
+        "city": "karinkallathanni",
+        "state": "kerala",
+        "zipCode": "123456"
+      },
+      "paymentDetails": {
+        "cardNumber": "",
+        "expiryDate": "",
+        "cvv": "",
+        "paymentMethod": "Cash on Delivery"
+      },
+      "isBlocked": false
+    },
+    {
+      "id": "c5f0",
+      "username": "abdulvajid",
+      "password": "12345678",
+      "email": "abdulvajid051@gmail.com",
+      "isBlocked": false,
+      "cart": [
+        {
+          "id": "2",
+          "name": "Men's Classic Blue",
+          "price": 2999,
+          "quantity": 1,
+          "categories": "men",
+          "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-019.jpg",
+          "description": "A timeless pair of classic blue sneakers, designed for comfort and durability. Ideal for casual wear or running errands."
+        }
+      ]
+    },
+    {
+      "id": "38c9",
+      "username": "abdul",
+      "password": "098765432",
+      "email": "www.mirfadkp7306@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Men's Black Running",
+      "price": 2000,
+      "quantity": 14,
+      "categories": "men",
+      "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-005.jpg",
+      "description": "A stylish and comfortable black running shoe, perfect for daily use or sports. Provides excellent support and cushioning for outdoor activities."
+    },
+    {
+      "id": "2",
+      "name": "Men's Classic Blue",
+      "price": 2999,
+      "quantity": 14,
+      "categories": "men",
+      "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-019.jpg",
+      "description": "A timeless pair of classic blue sneakers, designed for comfort and durability. Ideal for casual wear or running errands."
+    },
+    {
+      "id": "3",
+      "name": "Men's Classic Mint",
+      "price": 3999,
+      "quantity": 8,
+      "categories": "men",
+      "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-020.jpg",
+      "description": " A refreshing mint-colored sneaker that combines style and comfort, offering breathable material and flexible sole for active wear."
+    },
+    {
+      "id": "4",
+      "name": "Men's Red Running",
+      "price": 1999,
+      "quantity": 11,
+      "categories": "men",
+      "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-006.jpg",
+      "description": "Bold and bright red running shoes designed for athletes. Offers a lightweight feel with a cushioned sole for impact protection during intense workouts."
+    },
+    {
+      "id": "5",
+      "name": "Men's Navy Running",
+      "price": 2499,
+      "quantity": 11,
+      "categories": "men",
+      "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-008.jpg",
+      "description": "Stylish navy running shoes with a modern design. Great for both fitness enthusiasts and casual wear with a comfortable, supportive fit."
+    },
+    {
+      "id": "6",
+      "name": "Men's Green Running",
+      "price": 1599,
+      "quantity": 15,
+      "categories": "men",
+      "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-007.jpg",
+      "description": "A vibrant green pair of running shoes that blends performance and style. Lightweight and designed to keep you moving effortlessly."
+    },
+    {
+      "id": "7",
+      "name": "Men's Moonstone Sneaker",
+      "price": 2499,
+      "quantity": 12,
+      "categories": "men",
+      "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-018.jpg",
+      "description": "Moonstone-themed sneakers with a sleek design, perfect for a trendy and athletic look. Great for both performance and style-conscious individuals."
+    },
+    {
+      "id": "8",
+      "name": "Men's Earth-Tone Sneaker",
+      "price": 2999,
+      "quantity": 14,
+      "categories": "men",
+      "images": "https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-017.jpg",
+      "description": "Earth-tone sneakers that are both functional and fashionable. Suitable for outdoor enthusiasts and those who enjoy versatile footwear."
+    },
+    {
+      "id": "9",
+      "name": "Sparx SI 170 Runnig Shoe",
+      "price": 2999,
+      "quantity": 13,
+      "categories": "women",
+      "images": "https://sbuyimages.dzvdesk.com/Uploads/Sparx%20%20Women%20SL-146%20Running%20Shoes%20%202_2021_01_13_16_21_29.jpeg",
+      "description": "A high-performance running shoe from Sparx with a sleek design, great for casual and athletic wear. Provides excellent grip and cushioning for running."
+    },
+    {
+      "id": "10",
+      "name": "Leather ballet pumps",
+      "price": 1500,
+      "quantity": 15,
+      "categories": "women",
+      "images": "https://www.projectcece.com/static/_versions/products/alohas/01b2549_large.jpg",
+      "description": " Elegant and versatile leather ballet flats for women. These shoes provide a chic look and comfortable fit, perfect for formal or casual occasions."
+    },
+    {
+      "id": "11",
+      "name": "Campus Women Kim Walkig Shoe",
+      "price": 1999,
+      "quantity": 20,
+      "categories": "women",
+      "images": "https://www.campusshoes.com/cdn/shop/files/KIM-12G-818-BLK-RANI_2_720x.jpg?v=1735733758",
+      "description": "A comfortable and stylish walking shoe for women. Provides excellent arch support and cushioning, perfect for long walks or daily wear."
+    },
+    {
+      "id": "12",
+      "name": "Vendoze Casual ",
+      "price": 3499,
+      "quantity": 18,
+      "categories": "women",
+      "images": "https://mall2mart.com/cdn/shop/products/612df0USRLL_600x.jpg?v=1707741693",
+      "description": "Vendoze's casual shoes offer an easy-to-wear, comfortable option for everyday use. Stylish and practical for relaxed outings and casual events."
+    },
+    {
+      "id": "13",
+      "name": "Red Tape Textured ",
+      "price": 3999,
+      "quantity": 12,
+      "categories": "women",
+      "images": "https://redtape.com/cdn/shop/files/RSO3793_8_jpg_e08f73a9-6dd2-4b60-898a-692d89596245.jpg?v=1733985965",
+      "description": "Textured red tape heels that combine modern design with a classic feel. Perfect for office wear or formal events."
+    },
+    {
+      "id": "14",
+      "name": "freddie Hot Space Block Heel",
+      "price": 2999,
+      "quantity": 12,
+      "categories": "women",
+      "images": "https://theater.xyz/cdn/shop/files/Untitled-1_0008_SHA05361_1080x.jpg?v=1721303338",
+      "description": "Chic block heels with a modern design, offering comfort without sacrificing style. Ideal for a fashionable look with lasting comfort."
+    },
+    {
+      "id": "15",
+      "name": "GNIST Pointed Toe Block Heel ",
+      "price": 1000,
+      "quantity": 11,
+      "categories": "women",
+      "images": "https://m.media-amazon.com/images/I/61LOU3nl1LL._SY695_.jpg",
+      "description": "Sophisticated pointed-toe block heels that are perfect for work or evening events. Offers a sleek and fashionable silhouette with reliable comfort."
+    },
+    {
+      "id": "16",
+      "name": "Air Jordan XXXIX PF 'Noir'",
+      "price": 1944,
+      "quantity": 7,
+      "categories": "men",
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/735b74c9-bde2-4f0b-a097-5aa624ef41e1/AIR+JORDAN+XXXIX+RNWY+PF.png",
+      "description": "On the court, MJ was known for his fierceness and agility, earning the nickname Black Cat. This all-black AJ39 honours that legacy while bringing you a shoe tailored to today's modern game. So, while your look stays high class, your low game benefits from the lightweight ZoomX foam and snappy Air Zoom cushioning."
+    },
+    {
+      "id": "17",
+      "name": "Tatum 3 PF",
+      "price": 1140,
+      "quantity": 4,
+      "categories": "men",
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d66428e9-3575-4385-8b7d-36992831cc74/JORDAN+TATUM+3+PF.png",
+      "description": "Made for movers and shakers, the Tatum 3 offers a contouring fit in a lightweight design, helping you dominate the game in the smoothest of fashion. Sound familiar? A strong but flexible upper gives you the containment and stretch that quick cuts and dynamic movements demand. So, whether you're breaking records or ankles, you can shift in and out of action just like the champ himself. No pressure."
+    },
+    {
+      "id": "18",
+      "name": "Nike Air Force 1 '07 Next Nature",
+      "price": 1199,
+      "quantity": 12,
+      "categories": "women",
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/04da14bb-ab6b-48ab-a31b-ffcbfeb8ee32/W+AIR+FORCE+1+%2707+NEXT+NATURE.png",
+      "description": "The radiance lives on in the Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp materials, bold colours and the perfect amount of flash to make you shine.\n\n"
+    }
+  ]
+}

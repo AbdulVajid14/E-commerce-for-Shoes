@@ -1,0 +1,5 @@
+nike=https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Nike.png
+adidas=https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Adidas.png
+puma=https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Puma.png
+jordan=https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Jordan.png
+rebok=https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Reebok.png
