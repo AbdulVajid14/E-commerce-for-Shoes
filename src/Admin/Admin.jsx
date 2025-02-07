@@ -40,6 +40,11 @@ function Admin() {
               Users
             </Link>
           </li>
+          <li className="mb-6">
+            <Link to="orders" className="text-white hover:text-blue-500">
+              Orders
+            </Link>
+          </li>
         </ul>
 
         <div className="mt-auto">

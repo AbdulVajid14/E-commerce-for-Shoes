@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { logoutUser } from "../slice/userSlice";
 import { FaUser } from "react-icons/fa"; 
 import { AiOutlineLogout } from "react-icons/ai"; 
+import backgroundImage from "../assets/Untitled design.png"; 
 
 
 function Navbar() {
@@ -62,8 +63,15 @@ function Navbar() {
 
   return (
     <div className="sticky top-0 bg-white shadow-lg z-50">
-      <nav className="bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 p-4 shadow-lg">
-        <div className="container mx-auto flex justify-between items-center">
+<nav 
+  className="p-4 shadow-lg relative"
+  style={{
+    backgroundImage: `linear-gradient(to right, rgba(115, 113, 156, 0.23), rgba(140, 127, 169, 0.3), rgba(25, 4, 15, 0.44)), url(${backgroundImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundBlendMode: "multiply"
+  }}
+>        <div className="container mx-auto flex justify-between items-center">
           <div className="text-4xl font-extrabold tracking-wider text-white">
             <Link to="/">
               <span className="italic text-yellow-300">Shoe</span>
@@ -98,34 +106,33 @@ function Navbar() {
             </Link>
           </div>
 
-          <div className="hidden md:flex items-center border-2 rounded-full p-2 w-96 bg-white shadow-lg">
-            <input
-              type="text"
-              className="w-full border-none focus:outline-none px-4 py-2 text-gray-800 rounded-full"
-              placeholder="Search for shoes..."
-              value={search}
-              onChange={searchProduct}
-            />
-          </div>
-
-          {search && (
-            <div className="absolute top-16 bg-white border-2 rounded-md shadow-lg w-96 p-4 z-50">
-              {filteredProducts.length > 0 ? (
-                filteredProducts.map((product) => (
-                  <Link
-                    to={`/productdetails/${product.id}`}
-                    key={product.id}
-                    className="block p-2 hover:bg-gray-100 transition duration-200"
-                    onClick={() => handleProductClick(product.id)} 
-                  >
-                    {product.name}
-                  </Link>
-                ))
-              ) : (
-                <div className="p-2 text-gray-500">No products found</div>
-              )}
-            </div>
-          )}
+   <div className="relative hidden md:flex items-center border-2 rounded-full p-2 w-96 bg-white shadow-lg">
+  <input
+    type="text"
+    className="w-full border-none focus:outline-none px-4 py-2 text-gray-800 rounded-full"
+    placeholder="Search for shoes..."
+    value={search}
+    onChange={searchProduct}
+  />
+  {search && (
+    <div className="absolute top-12 left-0 w-full bg-white border border-gray-300 rounded-md shadow-lg z-50">
+      {filteredProducts.length > 0 ? (
+        filteredProducts.map((product) => (
+          <Link
+            to={`/productdetails/${product.id}`}
+            key={product.id}
+            className="block p-2 hover:bg-gray-100 transition duration-200"
+            onClick={() => handleProductClick(product.id)}
+          >
+            {product.name}
+          </Link>
+        ))
+      ) : (
+        <div className="p-2 text-gray-500">No products found</div>
+      )}
+    </div>
+  )}
+</div>
 
           <div className="hidden md:flex items-center space-x-6">
             <Link to="/cart" className="relative text-white">
@@ -241,7 +248,7 @@ function Navbar() {
               </span>
             </Link>
           </div>
-
+          <div className="relative w-full">
           <div className="flex items-center border-2 rounded-full p-2 w-full">
             <input
               type="text"
@@ -253,7 +260,7 @@ function Navbar() {
           </div>
 
           {search && (
-            <div className="absolute top-16 bg-white border-2 rounded-md shadow-lg w-96 p-4 z-50">
+            <div className="absolute top-12 left-0 w-full bg-white border border-gray-300 rounded-md shadow-lg z-50 max-h-48 overflow-y-auto">
               {filteredProducts.length > 0 ? (
                 filteredProducts.map((product) => (
                   <Link
@@ -270,6 +277,7 @@ function Navbar() {
               )}
             </div>
           )}
+          </div>
 
           {!user ? (
             <div className="relative">
@@ -351,3 +359,6 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+

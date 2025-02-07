@@ -12,6 +12,37 @@ export const fetchUsers = createAsyncThunk(
     }
   }
 );
+
+export const updateOrderStatus = createAsyncThunk(
+  'admin/updateOrderStatus',
+  async ({ orderId, status, userId }, { rejectWithValue }) => {
+    try {
+      // Fetch user data
+      const { data: user } = await axios.get(`http://localhost:5001/users/${userId}`);
+
+      // Check if user exists
+      if (!user) {
+        throw new Error("User not found");
+      }
+
+      // Update the specific order status
+      const updatedOrders = user.orders.map(order =>
+        order.orderId === orderId ? { ...order, status } : order
+      );
+
+      // Update the user object with modified orders
+      const response = await axios.patch(`http://localhost:5001/users/${userId}`, {
+        orders: updatedOrders,  // Ensure this matches backend schema
+      });
+
+      return { userId, updatedOrders }; // Return updated orders
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+
 export const updateUserBlockStatus = createAsyncThunk(
   'admin/updateUserBlockStatus',
   async ({ userId, isBlocked }, { rejectWithValue }) => {
@@ -38,20 +69,19 @@ export const fetchDashboardData = createAsyncThunk(
       const monthlyProfit = Array(12).fill(0);
 
       users.forEach((user) => {
-        if (user.orders && Array.isArray(user.orders)) {
-          user.orders.forEach((order) => {
-            const orderDate = new Date(order.orderDate);
-            const month = orderDate.getMonth();
-            
-            order.cartItems.forEach((item) => {
-              monthlySales[month] += item.price;
-              monthlyProfit[month] += item.price * 0.3; 
-            });
+        user.orders?.forEach((order) => { 
+          const orderDate = new Date(order.orderDate);
+          const month = orderDate.getMonth();
+          
+          order.cartItems?.forEach((item) => { 
+            monthlySales[month] += item.price * item.quantity;
+            monthlyProfit[month] += item.price * item.quantity * 0.3; 
           });
-        }
+        });
       });
 
       return {
+        users, 
         totalProducts: products.length,
         totalUsers: users.length,
         totalSales: monthlySales.reduce((sum, value) => sum + value, 0),
@@ -135,6 +165,8 @@ const adminSlice = createSlice({
       })
       .addCase(fetchDashboardData.fulfilled, (state, action) => {
         state.loading = false;
+        state.users = action.payload.users; 
+
         state.totalProducts = action.payload.totalProducts;
         state.totalUsers = action.payload.totalUsers;
         state.totalSales = action.payload.totalSales;
@@ -158,6 +190,17 @@ const adminSlice = createSlice({
         state.products.push(action.payload);
       })
       .addCase(createProduct.rejected, (state, action) => {
+        state.error = action.payload;
+      })
+   
+      .addCase(updateOrderStatus.fulfilled, (state, action) => {
+        const { userId, updatedOrders } = action.payload;
+        state.users = state.users.map(user =>
+          user.id === userId ? { ...user, orders: updatedOrders } : user
+        );
+      })
+      
+      .addCase(updateOrderStatus.rejected, (state, action) => {
         state.error = action.payload;
       });
   },
